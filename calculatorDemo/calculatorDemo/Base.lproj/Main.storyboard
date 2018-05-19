@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G19009" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calculatorDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Sdd-s5-ghD">
+                                <frame key="frameInset" minX="56" minY="158" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X4t-oG-RG0">
+                                        <frame key="frameInset" width="150" height="150"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FkH-p9-hh2">
+                                                <frame key="frameInset" width="150" height="150"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DqA-gA-buR">
+                                                        <frame key="frameInset" width="150" height="150"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TeU-11-OrQ">
+                                                                <frame key="frameInset" width="150" height="150"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6C1-nu-4mo">
+                                                                        <frame key="frameInset" width="150" height="150"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y3L-Ud-ALh">
+                                                                                <frame key="frameInset" width="150" height="150"/>
+                                                                                <subviews>
+                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IHq-N9-PT4">
+                                                                                        <frame key="frameInset" width="150" height="150"/>
+                                                                                        <subviews>
+                                                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EId-HM-3bX">
+                                                                                                <frame key="frameInset" width="150" height="150"/>
+                                                                                                <subviews>
+                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="X65-7S-tna">
+                                                                                                        <frame key="frameInset" width="150" height="150"/>
+                                                                                                        <subviews>
+                                                                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Hxf-kf-7eN">
+                                                                                                                <frame key="frameInset" width="150" height="150"/>
+                                                                                                                <subviews>
+                                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vPp-cO-6Yv">
+                                                                                                                        <frame key="frameInset" width="150" height="150"/>
+                                                                                                                        <subviews>
+                                                                                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zG0-ij-hLL">
+                                                                                                                                <frame key="frameInset" width="150" height="150"/>
+                                                                                                                                <subviews>
+                                                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gxH-3s-IBS">
+                                                                                                                                        <frame key="frameInset" width="150" height="30"/>
+                                                                                                                                        <subviews>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3e-vX-X76">
+                                                                                                                                                <frame key="frameInset" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876939999999" blue="0.4687375204" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="/">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLl-LY-xNE"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edM-WL-OSq">
+                                                                                                                                                <frame key="frameInset" minX="40" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876939999999" blue="0.4687375204" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="*">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WNQ-S1-RwT"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nh0-An-dlb">
+                                                                                                                                                <frame key="frameInset" minX="80" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876939999999" blue="0.4687375204" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="-">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C3a-bf-fsp"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSh-nx-W52">
+                                                                                                                                                <frame key="frameInset" minX="120" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876939999999" blue="0.4687375204" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="+">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mGq-p6-3yn"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                        </subviews>
+                                                                                                                                    </stackView>
+                                                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oKt-Lu-hnZ">
+                                                                                                                                        <frame key="frameInset" minY="30" width="150" height="30"/>
+                                                                                                                                        <subviews>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWH-TP-fYA">
+                                                                                                                                                <frame key="frameInset" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876943333877" blue="0.46873752035718574" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="π">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6hP-8g-VoS"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiQ-sd-zJi">
+                                                                                                                                                <frame key="frameInset" minX="40" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="7">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AQf-K6-Occ"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8w-8B-eal">
+                                                                                                                                                <frame key="frameInset" minX="80" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="8">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UdO-9k-Fim"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VC-Qn-9Ng">
+                                                                                                                                                <frame key="frameInset" minX="120" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="9">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CRB-hO-DuC"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                        </subviews>
+                                                                                                                                    </stackView>
+                                                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9qO-LD-NTD">
+                                                                                                                                        <frame key="frameInset" minY="60" width="150" height="30"/>
+                                                                                                                                        <subviews>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyi-jE-efE">
+                                                                                                                                                <frame key="frameInset" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876939999999" blue="0.4687375204" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="√">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fxt-Gd-XYd"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jci-eL-plr">
+                                                                                                                                                <frame key="frameInset" minX="40" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="4">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgy-ei-TSD"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awx-dg-Wnm">
+                                                                                                                                                <frame key="frameInset" minX="80" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="5">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="he8-Gh-enZ"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRw-UB-5Qg">
+                                                                                                                                                <frame key="frameInset" minX="120" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="6">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dMB-sq-iQR"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                        </subviews>
+                                                                                                                                    </stackView>
+                                                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rWq-5I-h6g">
+                                                                                                                                        <frame key="frameInset" minY="90" width="150" height="30"/>
+                                                                                                                                        <subviews>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvu-Mp-aCd">
+                                                                                                                                                <frame key="frameInset" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876939999999" blue="0.4687375204" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="^">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fq0-iy-iLa"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddV-ZC-5VL">
+                                                                                                                                                <frame key="frameInset" minX="40" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="1">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kx3-ec-JKu"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYd-Px-LOE">
+                                                                                                                                                <frame key="frameInset" minX="80" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="2">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cMp-oA-ZL4"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNt-N2-oRr">
+                                                                                                                                                <frame key="frameInset" minX="120" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="3">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oWg-hr-m2i"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                        </subviews>
+                                                                                                                                    </stackView>
+                                                                                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8DE-Hp-thz">
+                                                                                                                                        <frame key="frameInset" minY="120" width="150" height="30"/>
+                                                                                                                                        <subviews>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8C1-4M-fCm">
+                                                                                                                                                <frame key="frameInset" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="1" green="0.75621876939999999" blue="0.4687375204" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="=">
+                                                                                                                                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l5E-Ht-GhO"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9Q-gd-Av9">
+                                                                                                                                                <frame key="frameInset" minX="40" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462800000002" green="0.21773290770000001" blue="0.41333103789999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="C">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dg4-fC-3ZO"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPF-YM-tf7">
+                                                                                                                                                <frame key="frameInset" minX="80" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462804794312" green="0.21773290769848871" blue="0.41333103786721936" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title="0">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667082505445" blue="0.5373756860080563" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="85k-CT-SMe"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8q-VE-Whz">
+                                                                                                                                                <frame key="frameInset" minX="120" width="30" height="30"/>
+                                                                                                                                                <color key="backgroundColor" red="0.54664462800000002" green="0.21773290770000001" blue="0.41333103789999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                <state key="normal" title=".">
+                                                                                                                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                                                                                    <color key="titleShadowColor" red="1" green="0.18699667079999999" blue="0.53737568599999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                                                </state>
+                                                                                                                                                <connections>
+                                                                                                                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ybk-cE-Rr8"/>
+                                                                                                                                                </connections>
+                                                                                                                                            </button>
+                                                                                                                                        </subviews>
+                                                                                                                                    </stackView>
+                                                                                                                                </subviews>
+                                                                                                                            </stackView>
+                                                                                                                        </subviews>
+                                                                                                                    </stackView>
+                                                                                                                </subviews>
+                                                                                                            </stackView>
+                                                                                                        </subviews>
+                                                                                                    </stackView>
+                                                                                                </subviews>
+                                                                                            </stackView>
+                                                                                        </subviews>
+                                                                                    </stackView>
+                                                                                </subviews>
+                                                                            </stackView>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEc-Rs-62a">
+                                <frame key="frameInset" minX="56" minY="107" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="screen" destination="HEc-Rs-62a" id="NY7-4u-Nf0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="85.907046476761622"/>
+        </scene>
+    </scenes>
+</document>
